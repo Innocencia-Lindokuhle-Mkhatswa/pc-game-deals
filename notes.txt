@@ -1,0 +1,11 @@
+ASSUMPTIONS
+- A game whose sale price equals its normal price is NOT on sale.
+- Discounts are rounded to the nearest whole number.
+- If no game matches a search, an empty list is returned.
+- If two games tie for cheapest, the first one in the list is returned.
+- Prices are shown with an "R" in front and 2 decimal places.
+
+PROBLEMS I HAD
+- Node.js wasn't installed. I got "node is not recognized", then installed it from nodejs.org.
+- My folder was in Program Files, so I moved it to Documents.
+- Functions confused me at first. Thinking of them as "machines" (input → output) helped.
